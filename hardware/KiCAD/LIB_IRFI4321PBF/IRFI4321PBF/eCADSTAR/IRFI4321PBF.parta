@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_11444944"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-24-09:23:13)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "IRFI4321PBF")
+)
+
+
+(pinAssign "ECS_11444944"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-24-09:23:13)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_11444944")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "IRFI4321PBF")
+)
+
+
+(part "IRFI4321PBF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-02-24-09:23:13)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "IRFI4321PBF")
+    (pinAssignRef "ECS_11444944")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "D") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "S") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "MOSFET MOSFT 150V 34A 16mOhm 73nC")
+    (property "Mouser_Part_Number" "942-IRFI4321PBF")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFI4321PBF?qs=9%252BKlkBgLFf1U%252BCGUGLBmvA%3D%3D")
+    (property "Manufacturer_Name" "Infineon")
+    (property "Manufacturer_Part_Number" "IRFI4321PBF")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 4.83)
+)
+
+

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ESH227M050AH1AA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-03-16-10:57:21)
+    (mountForm default
+        (footprintRef "CAPPRD500W60D1000H1350")
+        (spec "System")
+    )
+)

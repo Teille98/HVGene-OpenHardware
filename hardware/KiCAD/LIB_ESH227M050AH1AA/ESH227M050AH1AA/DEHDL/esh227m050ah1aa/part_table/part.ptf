@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESH227M050AH1AA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "ESH227M050AH1AA" (!) = "", "CAPPRD500W60D1000H1350", "Capacitor, Polarized Radial Diameter", "80-ESH227M050AH1AA", "https://www.mouser.co.uk/ProductDetail/KEMET/ESH227M050AH1AA?qs=w9hhVRgtvfmnb2YOvt619g%3D%3D", "Kemet 220uF Electrolytic Aluminium Electrolytic Capacitor 50V dc, Through Hole - ESH227M050AH1AA", "https://componentsearchengine.com/Datasheets/1/ESH227M050AH1AA.pdf", "13.5 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.LM2574-5.0YN :1 ;Microchip LM2574-5.0YN, Step Down DC-DC Converter, 500mA, 8-Pin PDIP
+DIP762W57P254L952H343Q8N
+*STM IC
+*NGS
+*PLB 1="FB" 2="SIG GND" 3="ON/OFF" 4="PWR GND" 5="VIN" 6="NC_1" 7="OUTPUT" 8="NC_2"
+*MXP 8
+*DFN LM2574-5.0YN
+~!Mouser Part Number (998-LM2574-5.0YN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/LM2574-50YN?qs=kh6iOki%2FeLG8tRVzGWSPaw%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (LM2574-5.0YN)
+~!Link Datasheet (https://ww1.microchip.com/downloads/en/DeviceDoc/lm2574.pdf)
+~!Height (3.43mm)
+~!3D_Model (LM2574-5.0YN)
+LM2574-5.0YN
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

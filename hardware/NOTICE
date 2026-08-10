@@ -1,0 +1,9 @@
+Copyright (c) 2026 Teo Serra, BEAMS Department, Université Libre de Bruxelles (ULB)
+
+This hardware design (electronics, mechanical, and cutting files in this
+`hardware/` directory) is licensed under the CERN Open Hardware Licence
+Version 2 - Permissive (CERN-OHL-P-2.0). See the LICENSE file in this same
+directory for the full license text.
+
+Per section 1.6 of that licence, this file is a "Notice" and must be
+retained, unmodified, in any copy or Conveyance of this Covered Source.

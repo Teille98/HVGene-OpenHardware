@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model IRFI4321PBF
+#/11444944/1514719/2.50/3/3/Transistor
+DEF IRFI4321PBF Q 0 30 Y Y 1 F N
+F0 "Q" 650 300 50 H V L CNN
+F1 "IRFI4321PBF" 650 200 50 H V L CNN
+F2 "TO254P483X1018X2095-3P" 650 100 50 H I L CNN
+F3 "" 650 0 50 H I L CNN
+F4 "MOSFET MOSFT 150V 34A 16mOhm 73nC" 650 -100 50 H I L CNN "Description"
+F5 "4.83" 650 -200 50 H I L CNN "Height"
+F6 "942-IRFI4321PBF" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFI4321PBF?qs=9%252BKlkBgLFf1U%252BCGUGLBmvA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "IRFI4321PBF" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X G 1 0 0 200 R 50 50 0 0 P
+X D 2 0 -100 200 R 50 50 0 0 P
+X S 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

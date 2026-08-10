@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LM2574-5.0YN
+#/531542/1514719/2.50/8/3/Integrated Circuit
+DEF LM2574-5.0YN IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "LM2574-5.0YN" 1250 200 50 H V L CNN
+F2 "DIP762W57P254L952H343Q8N" 1250 100 50 H I L CNN
+F3 "https://ww1.microchip.com/downloads/en/DeviceDoc/lm2574.pdf" 1250 0 50 H I L CNN
+F4 "Microchip LM2574-5.0YN, Step Down DC-DC Converter, 500mA, 8-Pin PDIP" 1250 -100 50 H I L CNN "Description"
+F5 "3.43" 1250 -200 50 H I L CNN "Height"
+F6 "998-LM2574-5.0YN" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/LM2574-50YN?qs=kh6iOki%2FeLG8tRVzGWSPaw%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LM2574-5.0YN" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FB 1 0 0 200 R 50 50 0 0 P
+X SIG_GND 2 0 -100 200 R 50 50 0 0 P
+X ON/OFF 3 0 -200 200 R 50 50 0 0 P
+X PWR_GND 4 0 -300 200 R 50 50 0 0 P
+X NC_2 8 1400 0 200 L 50 50 0 0 P
+X OUTPUT 7 1400 -100 200 L 50 50 0 0 P
+X NC_1 6 1400 -200 200 L 50 50 0 0 P
+X VIN 5 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '860020672011'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "860020672011" (!) = "", "CAPPRD200W52D500H1250", "Capacitor, Polarized Radial Diameter", "710-860020672011", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860020672011?qs=0KOYDY2FL2%2FKkbEhyek4UA%3D%3D", "Wurth Elektronik 22uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm", "https://katalog.we-online.de/pbs/datasheet/860020672011.pdf", "12.5 mm"
+END_PART
+
+END.

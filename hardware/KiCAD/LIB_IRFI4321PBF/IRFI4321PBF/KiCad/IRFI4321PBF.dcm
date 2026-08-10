@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRFI4321PBF
+D MOSFET MOSFT 150V 34A 16mOhm 73nC
+K
+F 
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+Manufacturer=Infineon
+PartNumber=IRFI4321PBF
+PartCategory=Transistor
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=1.1
+Released=2020-02-24 09:23:13
+Downloaded=2025-06-18 12:34:56
+3D=Y

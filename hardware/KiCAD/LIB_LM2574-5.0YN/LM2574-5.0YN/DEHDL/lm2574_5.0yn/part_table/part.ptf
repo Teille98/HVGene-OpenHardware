@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM2574_5.0YN'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "LM2574-5.0YN" (!) = "", "DIP762W57P254L952H343Q8N", "Dual-In-Line Packages", "998-LM2574-5.0YN", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/LM2574-50YN?qs=kh6iOki%2FeLG8tRVzGWSPaw%3D%3D", "Microchip LM2574-5.0YN, Step Down DC-DC Converter, 500mA, 8-Pin PDIP", "https://ww1.microchip.com/downloads/en/DeviceDoc/lm2574.pdf", "3.43 mm"
+END_PART
+
+END.

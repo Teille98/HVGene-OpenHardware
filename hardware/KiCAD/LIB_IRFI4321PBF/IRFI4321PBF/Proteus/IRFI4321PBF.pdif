@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IRFI4321PBF"
+   (description "MOSFET MOSFT 150V 34A 16mOhm 73nC")
+   (family "TRX")
+   (package "TO254P483X1018X2095-3P")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "4.83mm")
+   (attribute "Mouser Part Number" "942-IRFI4321PBF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFI4321PBF?qs=9%252BKlkBgLFf1U%252BCGUGLBmvA%3D%3D")
+   (attribute "Manufacturer_Name" "Infineon")
+   (attribute "Manufacturer_Part_Number" "IRFI4321PBF")
+   (gate
+    (symbol "IRFI4321PBF")
+    (pin "G" 1 PS)
+    (pin "D" 2 PS)
+    (pin "S" 3 PS)
+   )
+  )
+  (symbol "IRFI4321PBF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P483X1018X2095-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.08 3.17)
+      (pt 8.16 3.17)
+      (pt 8.16 -2.16)
+      (pt -3.08 -2.16)
+      (pt -3.08 3.17))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.83 2.92)
+      (pt 7.91 2.92)
+      (pt 7.91 -1.91)
+      (pt -2.83 -1.91)
+      (pt -2.83 2.92))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.83 1.65)
+      (pt -1.56 2.92))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.91 -1.91)
+      (pt 7.91 2.92)
+      (pt -2.83 2.92)
+      (pt -2.83 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.33)
+    (plated true)
+    (pad (layer TCOP) (round 1.995))
+    (pad (layer INNER) (round 1.995))
+    (pad (layer BCOP) (round 1.995))
+   )
+   (padstack 1
+    (hole 1.33)
+    (plated true)
+    (pad (layer TCOP) (square 1.995))
+    (pad (layer INNER) (round 1.995))
+    (pad (layer BCOP) (square 1.995))
+   )
+   (model "IRFI4321PBF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,151 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LM2574-5.0YN"
+   (description "Microchip LM2574-5.0YN, Step Down DC-DC Converter, 500mA, 8-Pin PDIP")
+   (family "ANA")
+   (package "DIP762W57P254L952H343Q8N")
+   (attribute "Datasheet Link" "https://ww1.microchip.com/downloads/en/DeviceDoc/lm2574.pdf")
+   (attribute "Geometry.Height" "3.43mm")
+   (attribute "Mouser Part Number" "998-LM2574-5.0YN")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Micrel/LM2574-50YN?qs=kh6iOki%2FeLG8tRVzGWSPaw%3D%3D")
+   (attribute "Manufacturer_Name" "Microchip")
+   (attribute "Manufacturer_Part_Number" "LM2574-5.0YN")
+   (gate
+    (symbol "LM2574-5.0YN")
+    (pin "FB" 1 PS)
+    (pin "SIG_GND" 2 PS)
+    (pin "ON/OFF" 3 PS)
+    (pin "PWR_GND" 4 PS)
+    (pin "NC_2" 8 PS)
+    (pin "OUTPUT" 7 PS)
+    (pin "NC_1" 6 PS)
+    (pin "VIN" 5 PS)
+   )
+  )
+  (symbol "LM2574-5.0YN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIP762W57P254L952H343Q8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.645 5.075)
+      (pt 4.645 5.075)
+      (pt 4.645 -5.075)
+      (pt -4.645 -5.075)
+      (pt -4.645 5.075))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.24 4.825)
+      (pt 3.24 4.825)
+      (pt 3.24 -4.825)
+      (pt -3.24 -4.825)
+      (pt -3.24 4.825))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.24 3.555)
+      (pt -1.97 4.825))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.395 4.825)
+      (pt 3.24 4.825))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.24 -4.825)
+      (pt 3.24 -4.825))))
+   (leg 1 (pt -3.81 3.81) (padstack 1))
+   (leg 2 (pt -3.81 1.27) (padstack 0))
+   (leg 3 (pt -3.81 -1.27) (padstack 0))
+   (leg 4 (pt -3.81 -3.81) (padstack 0))
+   (leg 5 (pt 3.81 -3.81) (padstack 0))
+   (leg 6 (pt 3.81 -1.27) (padstack 0))
+   (leg 7 (pt 3.81 1.27) (padstack 0))
+   (leg 8 (pt 3.81 3.81) (padstack 0))
+   (padstack 0
+    (hole 0.77)
+    (plated true)
+    (pad (layer TCOP) (round 1.17))
+    (pad (layer INNER) (round 1.17))
+    (pad (layer BCOP) (round 1.17))
+   )
+   (padstack 1
+    (hole 0.77)
+    (plated true)
+    (pad (layer TCOP) (square 1.17))
+    (pad (layer INNER) (round 1.17))
+    (pad (layer BCOP) (square 1.17))
+   )
+   (model "LM2574-5.0YN.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

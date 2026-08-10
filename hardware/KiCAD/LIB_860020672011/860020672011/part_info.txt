@@ -1,0 +1,9 @@
+Manufacturer=Würth Elektronik
+PartNumber=860020672011
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=2.1
+Released=2019-03-28 07:29:54
+Downloaded=2025-08-29 09:35:11
+3D=Y

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SB160-E3_54
+#/11311345/1514719/2.50/2/3/Schottky Diode
+DEF SB160-E3_54 D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "SB160-E3_54" 500 250 50 H V L CNN
+F2 "DIOAD1405W86L465D235" 500 150 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/SB160-E3_54.pdf" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 60 Volt 1.0 Amp 50 Amp IFSM" 500 -50 50 H I L CNN "Description"
+F5 "" 500 -150 50 H I L CNN "Height"
+F6 "625-SB160-E3" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SB160-E3-54?qs=u91jd7aysvPQGAQKmVmbIA%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "SB160-E3/54" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

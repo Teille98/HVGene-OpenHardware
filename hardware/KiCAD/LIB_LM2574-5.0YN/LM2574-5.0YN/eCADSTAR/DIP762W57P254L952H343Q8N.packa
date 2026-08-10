@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM2574-5_0YN"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-11-20-07:56:13)
+    (mountForm default
+        (footprintRef "DIP762W57P254L952H343Q8N")
+        (spec "System")
+    )
+)

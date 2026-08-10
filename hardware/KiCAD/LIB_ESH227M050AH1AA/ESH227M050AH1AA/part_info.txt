@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=ESH227M050AH1AA
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2024-05-28 02:41:24
+Downloaded=2025-08-29 09:34:59
+3D=Y

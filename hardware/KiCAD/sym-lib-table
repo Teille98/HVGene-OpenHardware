@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SeeedRP2040")(type "Legacy")(uri "${KIPRJMOD}/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name "MCP41010")(type "KiCad")(uri "${KIPRJMOD}/ul_MCP41010-E-SN/KiCADv6/2024-09-12_12-29-08.kicad_sym")(options "")(descr ""))
+  (lib (name "IRFI4321")(type "KiCad")(uri "${KIPRJMOD}/LIB_IRFI4321PBF/IRFI4321PBF/KiCad/IRFI4321PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "LM2474-5V")(type "KiCad")(uri "${KIPRJMOD}/LIB_LM2574-5.0YN/LM2574-5.0YN/KiCad/LM2574-5_0YN.kicad_sym")(options "")(descr ""))
+  (lib (name "capa 22uF")(type "KiCad")(uri "${KIPRJMOD}/LIB_860020672011/860020672011/KiCad/860020672011.kicad_sym")(options "")(descr ""))
+  (lib (name "capa 220uF")(type "KiCad")(uri "${KIPRJMOD}/LIB_ESH227M050AH1AA/ESH227M050AH1AA/KiCad/ESH227M050AH1AA.kicad_sym")(options "")(descr ""))
+  (lib (name "inductance 330uH")(type "KiCad")(uri "${KIPRJMOD}/LIB_7447471331/7447471331/KiCad/7447471331.kicad_sym")(options "")(descr ""))
+  (lib (name "SB160")(type "KiCad")(uri "${KIPRJMOD}/LIB_SB160-E3_54/SB160-E3_54/KiCad/SB160-E3_54.kicad_sym")(options "")(descr ""))
+)

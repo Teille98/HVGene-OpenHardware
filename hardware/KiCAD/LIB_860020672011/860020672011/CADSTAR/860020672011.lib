@@ -1,0 +1,16 @@
+.860020672011 :1 ;Wurth Elektronik 22uF 50 V dc Aluminium Electrolytic Capacitor, WCAP-ATG5 Series 2000h 5 (Dia.) x 11mm
+CAPPRD200W52D500H1250
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN 860020672011
+~!Mouser Part Number (710-860020672011)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/860020672011?qs=0KOYDY2FL2%2FKkbEhyek4UA%3D%3D)
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (860020672011)
+~!Link Datasheet (https://katalog.we-online.de/pbs/datasheet/860020672011.pdf)
+~!Height (12.5mm)
+~!3D_Model (860020672011)
+"860020672011"
+1.1!U 2.1!U 

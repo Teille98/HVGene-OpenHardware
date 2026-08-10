@@ -1,0 +1,16 @@
+.IRFI4321PBF :1 ;MOSFET MOSFT 150V 34A 16mOhm 73nC
+TO254P483X1018X2095-3P
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN IRFI4321PBF
+~!Mouser Part Number (942-IRFI4321PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IRFI4321PBF?qs=9%252BKlkBgLFf1U%252BCGUGLBmvA%3D%3D)
+~!Manufacturer_Name (Infineon)
+~!Manufacturer_Part_Number (IRFI4321PBF)
+~!Link Datasheet (-)
+~!Height (4.83mm)
+~!3D_Model (IRFI4321PBF)
+IRFI4321PBF
+1.1!U 2.1!U 3.1!U 

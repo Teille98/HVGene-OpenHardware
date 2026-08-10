@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=LM2574-5.0YN
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=1.1
+Released=2021-11-20 07:56:13
+Downloaded=2025-08-29 10:19:48
+3D=Y

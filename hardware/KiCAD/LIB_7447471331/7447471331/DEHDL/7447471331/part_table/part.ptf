@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '7447471331'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Wurth Elektronik", "7447471331" (!) = "", "WE-TIS_111190", "Other", "710-7447471331", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447471331?qs=VxkwJfKV0FSJeL%252B3Zn%2FUiQ%3D%3D", "Shielded Radial Leaded Inductor", ""
+END_PART
+
+END.

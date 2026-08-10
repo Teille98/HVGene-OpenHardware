@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SB160_E3_54'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Vishay", "SB160-E3/54" (!) = "", "DIOAD1405W86L465D235", "Diodes, Axial Diameter Horizontal Mounting", "625-SB160-E3", "https://www.mouser.co.uk/ProductDetail/Vishay-General-Semiconductor/SB160-E3-54?qs=u91jd7aysvPQGAQKmVmbIA%3D%3D", "Schottky Diodes & Rectifiers 60 Volt 1.0 Amp 50 Amp IFSM", "https://componentsearchengine.com/Datasheets/2/SB160-E3_54.pdf"
+END_PART
+
+END.
