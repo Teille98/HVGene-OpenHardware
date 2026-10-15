@@ -8,8 +8,10 @@ voltage, operating frequency, duty cycle, timing, and operating mode.
 
 This repository accompanies the following HardwareX article:
 
-> *Open-Source High Voltage Power Supply for Cold Atmospheric Plasma Production*,
+> *Open-Source High Voltage Power Supply for Cold Atmospheric Plasma Generation*,
 > HardwareX (2026). DOI: _to be added once assigned_.
+
+Archived on Zenodo: [10.5281/zenodo.21889908](https://doi.org/10.5281/zenodo.21889908).
 
 If you use this hardware, firmware, or documentation, please cite the article above.
 
@@ -25,7 +27,9 @@ HVGene_OpenHardware/
 │   ├── LICENSE        CERN-OHL-P-2.0 (permissive open hardware licence, unmodified)
 │   ├── NOTICE          Copyright notice (kept separate — the licence text itself
 │   │                   must not be modified, per its own Preamble)
-│   ├── KiCAD/          PCB schematic and layout (push-pull inverter board)
+│   ├── KiCAD/          PCB schematic and layout (push-pull inverter board);
+│   │                   Article_Figure3_version/ = schematic as drawn in Figure 3
+│   │                   of the article
 │   ├── CAD-Fusion360/  3D mechanical design (enclosure, mounting)
 │   ├── Cutting/        Laser-cutting SVG files (LV/HV plates)
 │   └── BOM.xlsx        Bill of materials
@@ -35,11 +39,16 @@ HVGene_OpenHardware/
 │   └── tests/           Bench validation scripts (I2C, PIO, timing)
 ├── docs/                Build photos, diagrams, and other documentation media
 │   ├── LICENSE           CC BY-SA 4.0
-│   └── Figures/          All figures used in the article, plus device/setup/plasma
-│                         photos, CAD renders, build-step and scope-capture images
-└── zip/                 Pre-packaged .zip archives of the folders above, matching
-                          the Design Files table in the HardwareX article
+│   └── Figures/          Article_Figures/ = the article figures (Fig01–Fig29) and
+│                         Supplementary Material figures (FigS1–FigS6); plus
+│                         device/setup/plasma photos, CAD renders, diagrams (with
+│                         their draw.io/TikZ sources), build-step and scope images
+└── data/                Validation dataset (all measured operating points, raw and
+                          derived quantities) behind the article's validation section
 ```
+
+The folders above are the design files listed in the article's *Design files
+summary* (Table 3).
 
 ## Versioning
 
