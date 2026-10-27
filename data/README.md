@@ -20,6 +20,8 @@ steps (one setpoint per row). Main columns: *Turns/branch* = primary turns per b
 *V_Buck setpoint* = buck-voltage setpoint, *I_primary* = primary current,
 *V_secondary_pp* = secondary peak-to-peak voltage, *Real Power_scope* = real power
 read on the oscilloscope, *Plasma state* = plasma present (1) or not (0).
+*THD (fraction)* = total harmonic distortion of the secondary voltage as a fraction
+(0.11 = 11 %), computed from the harmonic amplitudes in the following columns.
 Blocks marked *[SECONDARY]* (1 turn/branch) are an optional sensitivity check and
 are not used in the article.
 
